@@ -42,10 +42,10 @@ Service KHÔNG làm gì?
 
 ## 6. API dự kiến
 
-| Method | Endpoint | Mục đích |
-|---|---|---|
-| GET | /health | Kiểm tra service |
-| POST | ... | ... |
+| Method | Endpoint | Mục đích         |
+| ------ | -------- | ---------------- |
+| GET    | /health  | Kiểm tra service |
+| POST   | ...      | ...              |
 
 ## 7. Phụ thuộc service khác
 
@@ -62,3 +62,4 @@ flowchart LR
     User[Actor] --> Service[Service của nhóm]
     Service --> DB[(Database)]
     Service --> Other[Service khác]
+```
